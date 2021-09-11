@@ -1,0 +1,20 @@
+{
+  "name": "mnishihan/learnoop",
+  "description": "Demonstrates solid principal",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "MniShihan\\LearnOOP\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Mohammad Nurul Islam Shihan",
+      "email": "mnishihan@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  }
+}
