@@ -29,9 +29,9 @@ src
 │       └── Triangle.php
 ├── Describer.php // Utility class to describe all objects that implements **Describable** interface
 └── Interfaces
-    ├── Area.php
-    ├── Describable.php
-    ├── Nameable.php
-    └── Speakable.php
+        ├── IArea.php
+        ├── IDescribable.php
+        ├── INameable.php
+        └── ISpeakable.php
     
 ```

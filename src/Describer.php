@@ -9,13 +9,13 @@
 namespace MniShihan\LearnOOP;
 
 
-use MniShihan\LearnOOP\Interfaces\Describable;
+use MniShihan\LearnOOP\Interfaces\IDescribable;
 
 class Describer
 {
-    public function describe(Describable ...$describes)
+    public function describe(IDescribable ...$describes)
     {
-        array_walk($describes, function(Describable $describable) {
+        array_walk($describes, function(IDescribable $describable) {
            echo $describable->describe() . PHP_EOL;
         });
     }

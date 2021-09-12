@@ -9,12 +9,12 @@
 namespace MniShihan\LearnOOP;
 
 
-use MniShihan\LearnOOP\Interfaces\Area;
+use MniShihan\LearnOOP\Interfaces\IArea;
 
 class AreaCalculator
 {
-    public function calculate(Area ...$areas) : float {
-        return array_reduce($areas, function($carry, Area $area) {
+    public function calculate(IArea ...$areas) : float {
+        return array_reduce($areas, function($carry, IArea $area) {
             return $carry + $area->calculateArea();
         }, 0.0);
     }

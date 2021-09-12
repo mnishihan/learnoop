@@ -9,9 +9,9 @@
 namespace MniShihan\LearnOOP\Abstracts;
 
 
-use MniShihan\LearnOOP\Interfaces\Area;
+use MniShihan\LearnOOP\Interfaces\IArea;
 
-abstract class Shape extends NamedObject implements Area
+abstract class Shape extends NamedObject implements IArea
 {
     public function describe(): string
     {

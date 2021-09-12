@@ -9,10 +9,10 @@
 namespace MniShihan\LearnOOP\Abstracts;
 
 
-use MniShihan\LearnOOP\Interfaces\Describable;
-use MniShihan\LearnOOP\Interfaces\Nameable;
+use MniShihan\LearnOOP\Interfaces\IDescribable;
+use MniShihan\LearnOOP\Interfaces\INameable;
 
-class NamedObject implements Nameable, Describable
+class NamedObject implements INameable, IDescribable
 {
     private $name = "Unknown";
 

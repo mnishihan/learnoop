@@ -8,9 +8,9 @@
 
 namespace MniShihan\LearnOOP\Abstracts;
 
-use MniShihan\LearnOOP\Interfaces\Speakable;
+use MniShihan\LearnOOP\Interfaces\ISpeakable;
 
-abstract class Animal extends NamedObject implements Speakable
+abstract class Animal extends NamedObject implements ISpeakable
 {
     private $age = 0.0;
 

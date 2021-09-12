@@ -2,6 +2,6 @@
 
 namespace MniShihan\LearnOOP\Interfaces;
 
-interface Area {
+interface IArea {
   public function calculateArea() : float;
 }
