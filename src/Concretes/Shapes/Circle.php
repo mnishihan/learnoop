@@ -48,4 +48,9 @@ class Circle extends Shape
     {
         return "I am a {$this->getName()} with radius = {$this->radius} and area = {$this->calculateArea()} square units.";
     }
+
+    public function draw(float $x, float $y)
+    {
+        return "Draw me with center located at {$x}, {$y}";
+    }
 }

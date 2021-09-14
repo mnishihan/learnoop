@@ -16,7 +16,7 @@ src
 │   ├── Animal.php
 │   ├── NamedObject.php
 │   └── Shape.php
-├── AreaCalculator.php // Utility class to calculate sum of objects that implements **Area** interface 
+├── AreaAggregator.php // Utility class to aggregate objects that implements **IArea** interface
 ├── Concretes
 │   ├── Animals
 │   │   ├── Cat.php
@@ -33,5 +33,5 @@ src
         ├── IDescribable.php
         ├── INameable.php
         └── ISpeakable.php
-    
+
 ```

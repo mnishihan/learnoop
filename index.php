@@ -11,9 +11,11 @@ $cow = new \MniShihan\LearnOOP\Concretes\Animals\Cow(2);
 $cat = new \MniShihan\LearnOOP\Concretes\Animals\Cat(1.2);
 $dog = new \MniShihan\LearnOOP\Concretes\Animals\Dog(3);
 
-$areaCalculator = new MniShihan\LearnOOP\AreaCalculator();
+$areaAggregator1 = new MniShihan\LearnOOP\AreaAggregator($rectangle, $circle);
+$areaAggregator2 = new MniShihan\LearnOOP\AreaAggregator($areaAggregator1, $square, $triangle);
 
-echo "Sum of all areas = " . $areaCalculator->calculate($rectangle, $circle, $square, $triangle) . PHP_EOL;
+
+echo "Sum of all areas = " . $areaAggregator2->calculateArea() . PHP_EOL;
 
 $describer = new \MniShihan\LearnOOP\Describer();
 
